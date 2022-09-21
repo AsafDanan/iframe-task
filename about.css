@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: righteous;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #e6cda9, #ada599 );
+    background-attachment: fixed;
+
+}
+.container{
+    position: relative;
+    width: 1250px;
+    padding: 20px;
+    padding-left: 200px;
+    right: 150px;
+
+
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.container .card{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    right: 190px;
+    background: #d2c4b0;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+.container .card .circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(#938a7f, #bebcb9);
+    clip-path: circle(180px at center 0);
+    text-align: center;
+}
+.container .card .circle h2
+{
+    color: #e6cda9;
+    font-size: 3em;
+    padding: 30px 0;
+}
+.container .card .content{
+    position: absolute;
+    bottom: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+.container .card .content p
+{
+    color: #a99f91;
+}
+.container .card .content a
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background:linear-gradient(#ac9f8f, #e8dac9);
+    color: #ffebd6;;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.container .card .content a:hover
+{
+    letter-spacing: 0.25em;
+  color: #fefefc;
+  background: #ac9f8f, #e8dac9;
+  box-shadow: 0 0 10px #ffdfae, 0 0 40px #ffdfae, 0 0 80px #ffdfae;
+}
+.container .card
+{
+    filter: blur(8px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+.container .card:hover
+{
+    filter: blur(0px);
+    transform: scale(1.42);
+    opacity: 1;
+}
+a {
+    background:linear-gradient(#ac9f8f, #e8dac9);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  a:hover {
+    letter-spacing: 0.55em;
+    color: #ffffff;
+    background: #ffdfae;
+    box-shadow: 0 0 10px #ffdfae, 0 0 40px #ffdfae, 0 0 80px #ffdfae;
+    transition: 0.5s;
+  }
+  a span {
+    position: relative;
+  }
+.navOne, .navTwo, .navThree, .nav{
+  display: inline;
+}
+ul,li{
+    color: #ada599;
+  }
+  .nav {
+    position: sticky;
+    z-index: 2;
+    margin-right: 900px;
+    bottom: 96%;
+    left: 10px;
+    width: 100px;
+    height: 12px;
+    padding: 0;
+    font-weight: 850px;
+    font-size: 25px;
+    background-color: none;
+  }
+  .navUl{
+    margin-left: 48px;
+    width: 357px;
+    height: 40px;
+    background: none;
+  }
+  .sectionTwo{
+    position: absolute;
+    right: 1350px;
+    bottom: 66%;
+    width: 400px;
+    padding: 0;
+  }
+  .mapouter{
+    position: absolute;
+    top: 250px;
+    right: 50px;
+  }
+  .mapButtons
+  {
+    position: absolute;
+    margin-right: 200px;
+    bottom: 0px;
+    left: 0px;
+    width: 120px;
+    height: 12px;
+    padding: 400px;
+    font-weight: 850px;
+    font-size: 25px;
+    background-color: none; 
+}
+.mapNav{
+    display: flex;
+}
+.mapOne, .mapTwo
+{
+    margin-right: 12px;
+    margin: 12px;
+    display: inline;
+}
+.mapHeader{
+    position: absolute;
+    display: grid;
+    width: 120px;
+    height: 60px;
+    right: 230px;
+    top: 150px;
+    color: #938a7f;
+}

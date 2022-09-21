@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: Righteous;
+    background-color: rgb(255, 223, 174);
+  }
+  
+  body {
+    background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  a,
+  ul,
+  li,
+  .buttonOne,
+  .secondaryButton,
+  .thirdButton {
+    background-color: rgb(250, 222, 190);
+  }
+  .buttonOne,
+  .secondaryButton,
+  .thirdButton {
+    display: inline;
+    font-size: larger;
+    padding-right: 30px;
+  }
+  .nav {
+    position: sticky;
+    bottom: 96%;
+    left: 20px;
+    width: 100px;
+    height: 12px;
+    padding: 0;
+    font-weight: 850px;
+    font-size: 25px;
+    background-color: #e6cda9;
+  }
+  .navUl{
+    margin-left: 48px;
+    width: 357px;
+    height: 40px;
+    background: rgb(250, 222, 190);
+  }
+  .navOne, .navTwo, .navThree, .nav{
+    display: inline;
+  }
+  ul,li{
+    color: #e6cda9;
+  }
+  .card {
+    align-items: center;
+    background-color: rgb(255, 223, 174);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    padding: 50px;
+  }
+  .card:hover{
+    background: #e6cda9;
+    transition: 0.6;
+    transform: translateY(50px);
+    transition: 2s;
+  }
+  .card:active{
+    font-size: 24px;
+    transform: scaleZ(0.92);
+    }
+  .card{
+    transition: 1s;
+  }
+  .nav-item {
+    align-self: flex-end;
+    color: #3d6ded;
+  }
+  
+  .page-wrapper {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+  }
+  a {
+    background: rgb(250, 222, 190);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  a:hover {
+    letter-spacing: 0.25em;
+    color: #ffffff;
+    background: #ffdfae;
+    box-shadow: 0 0 10px #ffdfae, 0 0 40px #ffdfae, 0 0 80px #ffdfae;
+    transition: 0.5s;
+  }
+  a span {
+    position: relative;
+  }
